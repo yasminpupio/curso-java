@@ -10,11 +10,12 @@ public class FahrenheitCelsius {
 		Scanner entrada = new Scanner(System.in);
 		
 		System.out.print("Digite a temperatura em °F: ");
-		String fahrenheit = entrada.next().replace(",", ".");
+		String valor = entrada.next().replace(",", ".");
+//		double fahrenheit = entrada.nextDouble();
 		
-		double fahrenheit2 = Double.parseDouble(fahrenheit);
+		double fahrenheit = Double.parseDouble(valor);
 		
-		double celsius = (fahrenheit2 - 32) * 5 / 9;
+		double celsius = (fahrenheit - 32) * 5 / 9;
 		
 		System.out.printf("%.2f°F = %.2f°C", fahrenheit, celsius);
 		
