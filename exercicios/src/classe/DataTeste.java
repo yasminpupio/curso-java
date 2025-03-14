@@ -5,11 +5,9 @@ public class DataTeste {
 	public static void main(String[] args) {
 		
 		Data d1 = new Data();
-		d1.dia = 10;
-		d1.mes = 01;
-		d1.ano = 2003;
+//		d1.dia = 10;
 		
-		Data d2 = new Data();
+		Data d2 = new Data(5, 7, 2004);
 		d2.dia = 05;
 		d2.mes = 07;
 		d2.ano = 2004;
