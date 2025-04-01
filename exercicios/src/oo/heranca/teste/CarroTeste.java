@@ -19,6 +19,8 @@ public class CarroTeste {
 		c1.acelerar();
 		System.out.println(c1);
 		
+		c2.ligarTurbo();
+		
 		c2.acelerar();
 		c2.frear();
 		System.out.println(c2);
