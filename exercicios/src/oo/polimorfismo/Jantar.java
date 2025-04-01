@@ -18,7 +18,7 @@ public class Jantar {
 
 		Sorvete sobremesa = new Sorvete(0.4);
 		convidado.comer(sobremesa);
-		
+
 		System.out.println(convidado.getPeso());
 	}
 }
